@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url(Images/television.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    overflow: hidden;
+    color: white;
+}
+
+
+
+.welcome-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px; /* Ajustez la taille de la police selon vos besoins */
+    text-align: center;
+    display: none; /* Masqué par défaut */
+}
+
+
+
+.placeTerm {
+    display: flex;
+    margin-left: 450px;
+    margin-top: 100px;
+    height: 400px;
+    width: 580px;
+    overflow-y: scroll;
+}
+
+
+.placeTerm::-webkit-scrollbar {
+    display: none;
+}
+
+img {
+    height: 300px;
+}
+
+#date {
+    margin-top: 175px;
+    font-size: 25px;
+}
+
+img:active {
+    transform: scale(2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(2);
+    z-index: 1000;
+}
+
+.error {
+    color: red;
+}
+
+.inputTxt {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: 2px solid transparent;
+    background: transparent;
+    outline: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.styleTerminal {
+    position: absolute;
+    inset: -5%;
+    background-image: url("https://68.media.tumblr.com/595a5fa01fe53ca0e4ca8f37bacc849d/tumblr_nve67mJtue1tanofjo1_500.gif");
+    opacity: 25%;
+    z-index: 10;
+    pointer-events: none;
+}
+
+@keyframes shift {
+    0% {
+        transform: translateX(10%) translateY(10%);
+    }
+    100% {
+        transform: translateX(-10%) translateY(-10%);
+    }
+}

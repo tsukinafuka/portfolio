@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr" translate="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="default.css" />
+    <title>Document</title>
+</head>
+<body>
+    
+
+<div id="app" class="placeTerm">
+    <div class="styleTerminal"></div>
+
+    <div class="terminal" id="terminal">
+        <div v-for="(message, index) in displayedMessages" :key="index" v-html="message"></div>
+        
+        <div class="firstInput" v-show="showInput"> 
+            <label>$</label>
+            <input type="text" v-model="userInput" @keypress.enter="handleInput" class="inputTxt" autocomplete="off" autofocus/>
+        </div>
+        
+    </div>
+</div>
+
+<div id="date"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+<script src="default.js"></script>
+<script src="date.js"></script>
+</body>
+</html>
