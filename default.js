@@ -52,10 +52,10 @@ new Vue({
             ],
             competence: [
                 "Competence : ",
-                "HTML : 80%",
-                "css : 20%",
-                "js : 30%",
-                "python : 60%"
+                "HTML",
+                "css",
+                "js",
+                "python"
             ]
         },
         stopAnimation: false,
