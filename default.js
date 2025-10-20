@@ -30,26 +30,6 @@ new Vue({
             cv: [
                 '<img src="Images/CVAlan.jpg" alt"cv"/>'
             ],
-            blocOne: [
-                '<p>Gérer le patrimoine informatique</p>',
-                "<p>Répondre aux incidents et aux demandes d'assistance et d'évolution</p>",
-                "<p>Développer la présence en ligne de l'organisation</p>",
-                '<p>Travailler en mode projet</p>',
-                '<p>Mettre à disposition des utilisateurs un service informatique</p>',
-                '<p>Organiser son développement professionnel</p>'
-            ],
-            btsSio: [
-                `Le BTS SIO option SLAM est un diplôme de bac+2 dans le domaine de l'informatique. 
-                C'est un bts technique qui prépare les étudiants à des carrières en programmation et développement logiciel. 
-                Le programme couvre des sujets tels que la programmation orientée objet, 
-                le développement web et la modélisation de bases de données.`
-            ],
-            greta: [
-                `Le GRETA est un réseau public de formation pour adultes en France, 
-                offrant des formations adaptées aux besoins des entreprises et des individus, dans divers domaines. 
-                Il permet d'acquérir de nouvelles compétences ou de se reconvertir professionnellement, 
-                avec des formations modulables et certifiantes.`
-            ],
             competence: [
                 "Competence : ",
                 "HTML",
